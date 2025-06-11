@@ -17,3 +17,5 @@ const store = {
     { id: 2, customerId: 2, productIds: [2], total: 89.9 },
   ],
 };
+
+// module.exports = store;
