@@ -34,4 +34,4 @@ Este é um projeto simples em JavaScript que simula a interface de uma loja. Ele
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/aysllanpereira/Fake-Api.git
