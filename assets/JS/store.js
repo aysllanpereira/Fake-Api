@@ -4,8 +4,7 @@ const store = {
     { id: 2, name: "Calça", category: "Roupas", price: 89.9, stock: 10 },
     { id: 3, name: "Tênis", category: "Calçados", price: 199.9, stock: 5 },
     { id: 4, name: "Boné", category: "Acessórios", price: 29.9, stock: 20 },
-    { id: 5, name: "Relógio", category: "Acessórios", price: 299.9, stock: 3 },
-    { id: 5, name: "Teste", category: "Acessórios", price: 299.9, stock: 3 },
+    { id: 5, name: "Relógio", category: "Acessórios", price: 299.9, stock: 3 }
   ],
   customers: [
     { id: 1, name: "João Silva", age: 25 },

@@ -5,11 +5,10 @@ function renderProducts() {
       const card = document.createElement('div');
       card.className = 'card';
       card.innerHTML = `
-      <p>Identificador: ${p.id}</p>
-      <h3>${p.name}</h3>
-      <p>Categoria: ${p.category}</p>
-      <p>Preço: R$ ${p.price.toFixed(2)}</p>
-      <p>Estoque: ${p.stock}</p>
+      <p>Produto: <strong>${p.name}</strong></p>
+      <p>Categoria: <strong>${p.category}</strong></p>
+      <p>Valor: <strong>R$${p.price.toFixed(2)}</strong></p>
+      <p>Estoque: <strong>${p.stock} produtos</strong></p>
       `;
       content.appendChild(card);
     });
